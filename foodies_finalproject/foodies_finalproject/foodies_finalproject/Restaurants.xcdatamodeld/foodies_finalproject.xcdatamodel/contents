@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="14460.32" systemVersion="18D42" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Restaurants" representedClassName="Restaurants" syncable="YES" codeGenerationType="class">
+        <attribute name="cuisine" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="image" optional="YES" attributeType="Binary" allowsExternalBinaryDataStorage="YES" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="rating" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="review" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="VisitedList" representedClassName="VisitedList" syncable="YES" codeGenerationType="class">
+        <attribute name="address" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="image" optional="YES" attributeType="Binary" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="WishList" representedClassName="WishList" syncable="YES" codeGenerationType="class">
+        <attribute name="address" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="image" optional="YES" attributeType="Binary" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Restaurants" positionX="-63" positionY="-18" width="128" height="120"/>
+        <element name="WishList" positionX="-63" positionY="18" width="128" height="90"/>
+        <element name="VisitedList" positionX="-54" positionY="36" width="128" height="90"/>
+    </elements>
+</model>
